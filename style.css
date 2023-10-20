@@ -109,19 +109,20 @@ p {
 
 @media screen and (max-width: 900px) {
 
+    header {
+        display: none;
+    }
+
     img {
         display: block;
         position: static;
-        margin-top: 130px;
+        margin-top: 100px;
         margin-left: 50px;
         margin-right: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         height: auto;
-        width: 90vw;
-    }
-
-    header {
-       display: none;
+        max-width: 90vw;
+        width: auto;
     }
 
     section {
