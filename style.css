@@ -163,3 +163,34 @@ p {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    img {
+        max-width: 80%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin: 5px auto;
+        max-width: 50%;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin: 5px auto;
+        max-width: 50%;
+    }
+
+    .main-button {
+        font-size: 23px;
+        max-width: 40%;
+        height: 60px;
+    }
+}
